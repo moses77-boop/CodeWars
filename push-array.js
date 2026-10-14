@@ -9,3 +9,4 @@ function divisible(numbers, divisor){
     }
     return result;
 }
+console.log(divisible([1,2,3,4,5,6], 2))
