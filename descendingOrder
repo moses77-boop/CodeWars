@@ -5,3 +5,4 @@ function descendingOrder(number) {
 
   return Number(joinDigits);
 }
+console.log(descendingOrder(4675123));
