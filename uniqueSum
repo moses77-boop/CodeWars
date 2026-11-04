@@ -1,1 +1,5 @@
-function uniqueSum(values) {}
+function uniqueSum(values) {
+  if (values.length === 0) {
+    return null;
+  }
+}
