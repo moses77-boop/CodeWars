@@ -25,18 +25,18 @@ var list1 = [
   },
 ];
 
-function isSameLanguage(list) {
-    const firstLanguage = list[0].language;
+function isSameLanguage(list1) {
+  const firstLanguage = list1[0].language;
 
-    return list.every(function(developer){
-        return developer.language === firstLanguage;
-    });
+  return list1.every(function (developer) {
+    return developer.language === firstLanguage;
+  });
 }
 
-// function isSameLanguage(list){
-//     const firstLanguage = list[0].language;
+// function isSameLanguage(list1){
+//     const firstLanguage = list1[0].language;
 
-//     for(const item of list){
+//     for(const item of list1){
 //         if(item.language !== firstLanguage){
 //             return false;
 //         }
