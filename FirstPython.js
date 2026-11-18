@@ -36,3 +36,12 @@ function getFirstPython(list) {
   return `${pythonDeveloper.firstName}, ${pythonDeveloper.country}`;
 }
 console.log(getFirstPython(list));
+
+// function getFirstPython(list) {
+//   for (const item of list) {
+//     if (item.language === 'Python') {
+//       return `${item.firstName}, ${item.country}`; // return stops the loop immediately
+//     }
+//   }
+//   return 'There will be no Python developers'; // only reached if no match was found
+// }
