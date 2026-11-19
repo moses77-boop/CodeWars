@@ -14,4 +14,4 @@ function stringExpansion(s) {
   return result;
 }
 
-console.log(stringExpansion("3ab"))
+console.log(stringExpansion("3ab"));
